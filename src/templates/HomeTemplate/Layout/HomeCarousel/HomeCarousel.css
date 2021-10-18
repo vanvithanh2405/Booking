@@ -1,0 +1,62 @@
+.slick-dots-bottom {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.imgPoster {
+    position: relative;
+}
+
+.infoPoster {
+    position: absolute;
+    top: 30%;
+    left: 8%;
+}
+
+.infoPoster .tenPhim4 {
+    font-family: 'Lobster', cursive;
+    background: -webkit-linear-gradient(#fa7952, rgb(243, 30, 30));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+.infoPoster .tenPhim1 {
+    font-family: 'Major Mono Display', monospace;
+    background: -webkit-linear-gradient(#869e19, rgb(127, 230, 75));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0;
+    font-size: 60px;
+}
+
+.infoPoster .tenPhim2 {
+    font-family: 'WindSong', cursive;
+    margin-bottom: 0;
+    background: -webkit-linear-gradient(#3bb9c8, rgb(35, 220, 203));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+}
+
+.infoPoster .tenPhim3 {
+    font-family: 'Bangers', cursive;
+    margin-bottom: 0;
+    background: -webkit-linear-gradient(#4a677b, rgb(97, 97, 97));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+}
+
+.infoPoster .moTa {
+    height: 200px;
+    width: 350px;
+    text-align: justify;
+}
+
+.infoPoster h4 {
+    font-size: 20px;
+    font-weight: 300;
+    padding: 15px 0;
+}

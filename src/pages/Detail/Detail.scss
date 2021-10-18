@@ -1,0 +1,256 @@
+.backgroundDetail {
+  background-color: #848484;
+  clip-path: polygon(100% 0%, 100% 28%, 0% 45%, 0% 15%);
+  width: 100%;
+  height: 1300px;
+  margin: 0 !important;
+  padding: 0 !important;
+  position: relative;
+}
+
+.detailFilm {
+  position: absolute;
+  top: 100px;
+}
+
+.imgDetail {
+  width: 160px !important;
+  height: 220px;
+}
+
+.afterImg {
+  position: relative;
+  width: 160px !important;
+  height: 220px;
+  box-shadow: 11px 10px 17px 0px rgba(0, 0, 0, 0.5);
+  transition: all 0.5s;
+}
+
+.afterImg:hover {
+  transition: all 0.5s;
+  box-shadow: -9px -9px 17px 0px rgba(0, 0, 0, 0.5);
+}
+
+.afterImg1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 160px;
+  height: 220px;
+  background-color: #ffffff00;
+  transition: all 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.afterImg1:hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 160px;
+  height: 220px;
+  background-color: #ffffff3d;
+  transition: all 0.5s;
+}
+
+.rateFilm {
+  padding-left: 10%;
+  /* position: relative; */
+}
+
+.infoDetail {
+  /* display: flex; */
+  align-items: center;
+  padding-top: 50px;
+  text-align: justify;
+  /* position: relative; */
+}
+
+.gggwJM {
+  /* height: auto;
+    min-width: 100px;
+    padding: 2rem; */
+  background: rgba(0, 0, 0, 0) !important;
+}
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #3d3d3d !important;
+  text-shadow: 0 0 0.25px currentColor;
+}
+
+.ant-tabs-tab:hover {
+  color: #b5b5b5 !important;
+  transition: all 0.2s;
+}
+
+.ant-tabs-ink-bar-animated {
+  background: #3d3d3d !important;
+}
+
+#tabsFilm {
+  box-shadow: 2px 2px 15px 4px rgb(0 0 0 / 34%);
+  border-radius: 15px;
+  padding-top: 20px;
+  width: 70%;
+  height: 700px;
+  max-height: 700px;
+}
+
+.playIcon {
+  color: white !important;
+  font-size: 80px;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.afterImg1:hover .playIcon {
+  color: white !important;
+  font-size: 80px;
+  opacity: 1;
+  transition: all 0.5s;
+}
+
+.buttonGioChieu:hover {
+  background-color: #848484;
+  color: #dfdfdf;
+  border-radius: 5px;
+  width: 50px;
+  height: 25px;
+}
+
+.buttonGioChieu {
+  background-color: #dfdfdf;
+  color: #848484;
+  border-radius: 5px;
+  width: 50px;
+  height: 25px;
+}
+
+.ant-tabs-left
+  > .ant-tabs-content-holder
+  > .ant-tabs-content
+  > .ant-tabs-tabpane,
+.ant-tabs-left
+  > div
+  > .ant-tabs-content-holder
+  > .ant-tabs-content
+  > .ant-tabs-tabpane {
+  /* padding-right: 10px; */
+}
+
+.tenFilm {
+  line-height: 35px;
+}
+
+.movie__listCinemas {
+  .ant-collapse {
+    background-color: white;
+  }
+  .hideOnPC {
+    display: none;
+  }
+  .listCinemasMobile {
+    .titleCinemaMobile {
+      display: flex;
+      align-items: center;
+      .logoCinemasMobile {
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+      }
+      .nameCinemasMobile {
+        font-size: 17px;
+      }
+    }
+    .titleCinemasChildMobile {
+      display: flex;
+      align-items: center;
+      .logoCinemasChildMobile {
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+      }
+      .nameCinemasChildMobile {
+        color: #000;
+        font-weight: 600;
+      }
+      .addCinemasChildMobile {
+        font-size: 13px;
+        color: #9b9b9b;
+      }
+    }
+    .infoFilmCinemaMobile {
+      display: flex;
+      align-items: center;
+      .imgFilmMobile {
+        width: 40px;
+        height: 40px;
+        border-radius: 3px;
+        margin-right: 10px;
+      }
+      .infoFilmMobileDetail {
+        .typeAgeMobile {
+          color: #fff;
+          background-color: #fb4226;
+          border-radius: 4px;
+          min-width: 33px;
+          text-align: center;
+          display: inline-block;
+          margin-right: 8px;
+        }
+        .nameFilmCinemaMobile {
+          font-weight: 600;
+        }
+        .timeReviewFilmMobile {
+          font-size: 12px;
+          color: #9b9b9b;
+        }
+      }
+    }
+    .movieTime {
+      padding: 5px 10px;
+      border: 1px solid #9b9b9b;
+      text-align: center;
+      border-radius: 7px;
+      color: #9b9b9b;
+      background-color: #fafafa;
+      border: 1px solid #e4e4e4;
+      cursor: pointer;
+      margin: 0 10px 10px 0 !important;
+    }
+    .cinemaChildMobile {
+      .ant-collapse-content > .ant-collapse-content-box {
+        padding: 10px 0;
+        border: 0;
+      }
+      .ant-collapse.ant-collapse-icon-position-right.filmMobile {
+        border: none;
+      }
+    }
+    .ant-collapse.ant-collapse-icon-position-right.cinemaChildMobile {
+      border: none;
+      border-radius: 20px !important;
+    }
+  }
+}
+
+// responsive
+@media screen and (max-width: 768px) {
+  .hideOnMobile {
+    display: none !important;
+  }
+  .movie__listCinemas .hideOnPC {
+    display: block !important;
+    max-width: 100rem !important;
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .movie__listCinemas .hideOnPC {
+    display: block !important;
+    max-width: 100rem !important;
+    width: 100% !important;
+  }
+}

@@ -1,0 +1,142 @@
+.layoutCSS {
+    background-color: #E5E5E5;
+    clip-path: polygon(0 15%, 100% 0%, 100% 100%, 0% 100%);
+    width: 100%;
+    height: 1300px;
+    margin: 0 !important;
+    padding: 0 !important;
+    position: relative;
+}
+
+.layoutCon {
+    position: absolute;
+    top: 100px;
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto !important;
+    padding: 1rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.layoutConMB {
+    position: absolute;
+    top: 100px;
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto !important;
+    padding: 1rem;
+}
+
+.info_Rap {
+    background: white;
+    /* width: 70%; */
+    display: flex;
+    height: 80px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px 4px rgb(0 0 0 / 34%);
+}
+
+.infoSeatsMB th {
+    font-size: 8px;
+}
+.infoSeatsIpad th {
+    font-size: 8px;
+}
+
+.layout_Rap {
+    background-color: #0F052F;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.layout_RapMB {
+    background-color: #0F052F;
+    border-radius: 20px;
+}
+
+.layout_Bill {
+    background-color: #fff;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.layout_Bill_Ipad{
+    background-color: #fff;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 2rem;
+}
+
+.ghe {
+    /* ghế thường */
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 12px;
+    background-color: #C4C4C4;
+    color: #000;
+    margin: 20px;
+}
+
+.gheIpad{
+    /* ghế ipad */
+
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 8px;
+    font-size: 10px;
+    background-color: #C4C4C4;
+    color: #000;
+}
+
+.ghe1 {
+    /* ghế mobile */
+    width: 15px;
+    height: 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 2px;
+    font-size: 8px;
+    background-color: #C4C4C4;
+    color: #000;
+}
+
+
+.gheDaDat {
+    background-color: rgb(232, 76, 76) !important;
+    cursor: no-drop;
+    /* background: url("/imgRap/RAP-GHE/ghedadat.png"); */
+}
+
+.gheDangDat {
+    background-color: rgb(13, 197, 13) !important;
+    color: #000;
+    /* background-image: "url(/imgRap/RAP-GHE/ghedangchon.png)"; */
+}
+
+.gheVip {
+    background-color: yellow;
+    /* background-image: 'url(/imgRap/RAP-GHE/ghedamua.png)'; */
+}
+
+.gheDaDuocDat {
+    /*ghế được chính mình đặt */
+    background-color: #ffffff !important;
+    /* background-image: 'url(/imgRap/RAP-GHE/ghedamua.png)'; */
+    -webkit-box-shadow: -1px 2px 18px -6px orange;
+    box-shadow: -1px 2px 18px -6px orange;
+    color: orange !important;
+    border: 1px solid orange;
+}

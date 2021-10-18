@@ -1,0 +1,126 @@
+// .slick-slide .imgCard  img {
+//     display: block;
+//     height: 200px !important;
+//     width: 200px;
+// }
+
+
+.main{
+	display: block;
+	margin: auto;
+	margin-top: 100px;
+	border-radius: 5px;
+	height: 515px;
+	width: 300px;
+	background: white;
+	border: gray;
+	transition: all 0.5s ease-in-out;
+    // box-shadow: 0px 20px 100px rgba(0,0,0,0.1);
+	box-shadow: 2px 2px 15px 4px rgb(0 0 0 / 34%);
+}
+.main:hover{
+	transform: scale(1.025);
+
+}
+.backimg{
+	height: 320px;
+    width: 280px;
+	margin-left: 10px;
+	margin-top:10px;
+	border-radius: 5px;
+}
+.movie-cover{
+	position:absolute;
+	margin-left: 20px;
+	height: 130px;
+	margin-top: -70px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
+}
+.fa-play{
+
+    margin-top: -31px;
+    font-size: 2rem;
+	background: gray;
+	opacity: 0.8;
+    color: white;
+    border-radius: 60px;
+    padding: 15px;
+    margin-left: 115px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+.fa-play:hover{
+    transform: scale(1.2);
+	opacity: 1;
+    background: #3d3d3d;
+
+}
+
+.title p{
+    position:absolute;
+	margin-left: 15px;
+	margin-top: 6px;
+	font-size: 1.25rem;
+	font-family: sans-serif;
+}
+
+.head1{
+	display: flex;
+	height: 30px;
+	width: 270px;
+	margin-top: 50px;
+	margin-left: 21px;
+}
+
+.head1 .rate{
+    margin-left: 8.5rem;
+}
+.head1 p{
+	color: rgba(0,0,0,0.7);
+	font-family: sans-serif;
+	font-size: 14.5px;
+	
+	
+}
+.head2{
+    display: flex;
+	height: 30px;
+	width: 270px;
+	margin-top: 0px;
+	margin-left: 21px;
+}
+
+.head2 .rate{
+    margin-left: 9.5rem;
+}
+
+.head2 p{
+	color: rgba(0,0,0,1);
+	font-family: sans-serif;
+	font-size: 0.9em;
+	font-weight: 700;
+	
+}
+
+.head3{
+	// display: flex;
+    // justify-content: center;
+    // align-items: center;
+    // max-width: 165px;
+    width: 100%;
+    // margin: 6px auto;
+}
+
+.head3 .btn{
+	opacity: 0.25;
+	transition: all .2s ease-in-out;
+	border: none;
+}
+.head3 .btn:hover{
+	opacity: 1;
+	transform: scale(1.1);
+    // background: red;
+	border: none;
+
+}

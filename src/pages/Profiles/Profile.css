@@ -1,0 +1,125 @@
+.profileBackground {
+  background-color: #e5e5e5;
+  clip-path: polygon(0 15%, 100% 0%, 100% 100%, 0% 100%);
+  width: 100%;
+  height: 1300px;
+  margin: 0 !important;
+  padding: 0 !important;
+  position: relative;
+}
+
+.profileBG {
+  /* border-top-left-radius: 15px; */
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgAvatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  margin: 0 20px;
+}
+
+.tabsProfile {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  margin: 10rem auto;
+  width: 100%;
+}
+
+.profiles {
+  background-color: #fff;
+  height: 100%;
+  border-radius: 15px;
+  padding-bottom: 4rem;
+  width: 70%;
+  box-shadow: 2px 2px 15px 4px rgb(0 0 0 / 34%);
+}
+
+.infoProfile h5 {
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 15px;
+  padding-left: 20px;
+}
+
+.infoProfile h1 {
+  font-weight: 500;
+  padding-top: 15px;
+  padding-left: 20px;
+}
+
+.infoProfile hr {
+  font-weight: 200;
+  padding-top: 1px;
+  margin-left: 20px;
+}
+
+.infoProfile span {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.btnAdmin {
+  width: 130px;
+  height: 50px;
+  text-align: center;
+  color: #848484;
+  margin-left: 20px;
+  margin-top: 10px;
+  background: #e5e5e5;
+}
+
+.tenPhim {
+  font-size: 15px;
+}
+
+.gioChieu {
+  font-size: 12px;
+}
+
+.diaDiem {
+  font-size: 12px;
+}
+
+.scrollBar {
+  height: 400px;
+}
+
+.iconSocial i {
+  font-size: 30px;
+  padding-left: 20px;
+  color: #848484;
+}
+
+.fa-instagram:hover {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  -webkit-background-clip: text;
+  /* Also define standard property for compatibility */
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* .scrollable-container {
+    height: 100px;
+    overflow-y: scroll;
+}
+
+.background {
+    padding-top: 60px;
+    height: 300px;
+    background-image: url('https://zos.alipayobjects.com/rmsportal/RmjwQiJorKyobvI.jpg');
+} */
